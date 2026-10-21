@@ -1,0 +1,25 @@
+site_name: 实验二 GitHub Pages 自动部署
+site_description: 使用 MkDocs Material 与 GitHub Actions 自动构建和发布静态文档站点
+site_url: https://gu860.github.io/github-pages-lab/
+use_directory_urls: true
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: cyan
+
+nav:
+  - 首页: index.md
+  - 项目说明: about.md
+  - 实验指南: guide.md
+  - 接口与发布: api.md
